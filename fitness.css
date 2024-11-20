@@ -1,0 +1,96 @@
+.A{
+    background-image: url(https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: contain;
+    background-repeat: repeat-x;
+    color:white;
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize; /* Optional to match the appearance */
+    text-decoration: underline ;
+}
+
+#B{
+    text-align:right;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px white;
+    
+
+}
+#C{
+    text-align: center;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 5px white;
+}
+#D{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 5px white;
+}
+.h2{
+    text-align: center;
+    background-color: lightsalmon;
+    color: white;
+    text-transform: capitalize;
+}
+
+#head{
+    background-color: lightsalmon;
+    text-align: center; 
+    color: white;
+    font-size: 30px;
+}
+.parent {
+    position: relative;  
+    width: 1520px;
+    height: 1200px;
+    background-image: linear-gradient(to right bottom,green, #77E4C8,#E4B1F0,yellow);
+}
+
+.child {
+    position: absolute;  
+    top: 18%;
+    left: 50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.child2{
+    position: absolute;
+    top:48%;
+    left:50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.child3{
+    position: absolute;
+    top:78%;
+    left:50%;
+    height: 280px;
+    width: 400px;
+    transform: translate(-50%, -50%);  
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;  
+    border-radius: 5px; 
+}
+.id{
+    color:darkblue;
+    padding-top: 10px;
+}
